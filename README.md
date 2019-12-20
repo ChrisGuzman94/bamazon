@@ -21,7 +21,10 @@ bamazonCustomer - The customer view allows the user to buy any amount of an item
 
 #node bamazonCustomer.js
 
-
+| Item Id  | Product Name | Product Name |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
 
 ┌─────────┬────────────────────┬────────┐
 │ item_id │ product_name       │ price  │
