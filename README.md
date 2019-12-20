@@ -53,7 +53,7 @@ D) Add New Product
 ? Please choose an option:  b
 
 | Item Id  | Product Name | Price | stock_quantity |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 |  1 | Xbox  | 400  | 34 |
 |  2 | PS4  | 300  | 40 |
 
