@@ -21,23 +21,14 @@ bamazonCustomer - The customer view allows the user to buy any amount of an item
 
 #node bamazonCustomer.js
 
-| Item Id  | Product Name | Product Name |
+| Item Id  | Product Name | Price |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+|  1 | Xbox  | 400  |
+|  2 | PS4  | 300  |
+|  3 | Call of Duty  | 59.99  |
+|  4 | Baseball Glove  | 40  |
+|  5 | Baseball Bat  | 50  |
 
-┌─────────┬────────────────────┬────────┐
-│ item_id │ product_name       │ price  │
-├─────────┼────────────────────┼────────┤
-│ 1       │ xbox               │ 400    │
-├─────────┼────────────────────┼────────┤
-│ 2       │ ps4                │ 300    │
-├─────────┼────────────────────┼────────┤
-│ 3       │ call of duty       │ 59.99  │
-├─────────┼────────────────────┼────────┤
-│ 4       │ baseball glove     │ 40     │
-├─────────┼────────────────────┼────────┤
-│ 5       │ baseball bat       │ 50     │
 
 ? What is the ID of the product you would like to buy? 1
 ? How many units of this product would you like you buy? 2
@@ -61,27 +52,22 @@ D) Add New Product
 
 ? Please choose an option:  b
 
+| Item Id  | Product Name | Price | stock_quantity |
+| ------------- | ------------- | ------------- |
+|  1 | Xbox  | 400  | 34 |
+|  2 | PS4  | 300  | 40 |
 
-┌─────────┬──────────────┬───────┬────────────────┐
-│ item_id │ product_name │ price │ stock_quantity │
-├─────────┼──────────────┼───────┼────────────────┤
-│ 1       │ xbox         │ 400   │ 34             │
-├─────────┼──────────────┼───────┼────────────────┤
-│ 2       │ ps4          │ 300   │ 40             │
-└─────────┴──────────────┴───────┴────────────────┘
+
+
+
 bamazonSupervisor - The supervisor view allows the user to view each department along with the product sales and total profit. They can also create a new department.
 
 
 Technologies Used:
 
 Javascript
-nodeJS
+NodeJS
 MySQL
-npm packages:
-
-mysql
-inquirer
-moment
 
 
 #*Navigate to screenshots folder to see fully working app*
