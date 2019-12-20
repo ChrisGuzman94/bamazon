@@ -4,9 +4,9 @@ This is a Node.JS app that interacts with a MySQL server on the localhost. The s
 
 bAmazon - This is a wrapper script that allows the user to choose between the different views: Customer, Manager, and Supervisor.
 
-# node bAmazon.js
+# node bamazon.js
 
-bAmazon Portal
+bamazon Portal
 
 -----------------------------------
 
@@ -38,7 +38,7 @@ bamazonManager - The manager view allows the user to view all products for sale,
 
 #node bamazonManager.js
 
-bAmazon Manager Portal
+bamazon Manager Portal
 
 -----------------------------------
 
